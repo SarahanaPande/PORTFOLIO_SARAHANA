@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./footer.css">
+</head>
+
+<body>
+    <section>
+        <nav class="nav_bar">
+            <div class="nav_link">
+                <a href="./main.html">PORTFOLIO</a>
+                <a href="./home.html">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./project.html">PROJECTS</a>
+                <a href="./contact.html">CONTACT</a>
+                <button class="resume_btn" id="resume_btn">RESUME</button>
+            </div>
+        </nav>
+    </section>
+    <div class="contact_page">
+        <div class="contact_info">
+
+            <h1>Contact Information</h1>
+            <p><b>Contact no</b>: +91-9910738177</p>
+            <p><b>Email ID</b>: Sarahna.ap@gmail.com</p>
+            <p><b>Address</b>: Kanishka Tower, sector 34, Faridabad, Haryana</p>
+
+        </div>
+
+        <div class="form">
+            <h1>Send a message.</h1>
+            <p>We value your feedback.</p>
+            <form action="" id="form_section" onsubmit="handleSubmit(event)">
+                <label>Name:</label>
+                <input type="textarea" placeholder="Enter your name" name="Name" id="Name" required>
+                <br><br>
+                <label>Email:</label>
+                <input type="textarea" placeholder="Enter your Email" value="@gmail.com" name="Email" id="Email"
+                    required>
+                <br><br>
+                <label>Subject:</label>
+                <input type="textarea" placeholder="Subject" name="Subject" id="Subject" style="width: 80%;">
+                <br><br>
+                <label>Message:</label>
+                <input type="textarea" placeholder="Enter Message" name="Message" id="Message"
+                    style="width: 80%; padding: 16px ;">
+                <br><br><br>
+                <button type="submit">Send message</button>
+                <br><br><br>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2 class="footer-logo">Sarahana Pande</h2>
+                <p>Bridging the gap between human strategy and digital execution.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sarahana-pande/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/SarahanaPande" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sarahana Pande. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./resume.js"></script>
+    <script src="./contact.js"></script>
+
+</body>
+
+</html>

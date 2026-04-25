@@ -1,0 +1,370 @@
+.body {
+    flex-wrap: wrap;
+}
+
+.welcome_txt {
+    margin: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.welcome_main {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+.highlight {
+    background-color: rgb(255, 219, 225);
+}
+
+.highlight2 {
+    background-color: rgb(206, 241, 255);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.card1 {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-color: rgb(250, 235, 132); */
+    background-color: rgba(252, 219, 32, 0.694);
+    justify-items: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card1:hover {
+    background-color: rgb(252, 219, 32);
+    border: 1px solid black;
+    transform: translateY(-5px);
+}
+
+.card1 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    /* text-transform: lowercase; */
+}
+
+.card1 h3:hover {
+    background-color: beige;
+}
+
+.card2 {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(192, 216, 121, 0.736);
+    justify-items: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card2:hover {
+    background-color: rgb(192, 216, 121);
+    border: 1px solid black;
+    transform: translateY(-5px);
+}
+
+.card2 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    /* text-transform: lowercase; */
+}
+
+.card2 h3:hover {
+    background-color: beige;
+}
+
+.card3 {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 121, 116, 0.797);
+    justify-items: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card3:hover {
+    background-color: rgb(255, 121, 116);
+    border: 1px solid black;
+    transform: translateY(-5px);
+}
+
+.card3 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.card3 h3:hover {
+    background-color: beige;
+}
+
+.view_btn {
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    align-items: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.view_btn:hover {
+    background-color: lavender;
+    color: rgb(114, 114, 244);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transform: translateY(-2px);
+}
+
+.foot1 {
+    background-color: rgb(189, 234, 251);
+    border-top: 1px solid #000;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cards p {
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content-section {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#foundation {
+    background-color: rgb(255, 219, 225);
+}
+
+#skills {
+    background-color: rgb(206, 241, 255);
+}
+
+#milestones {
+    background-color: rgba(255, 150, 150, 0.499);
+}
+
+.content-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    background-color: beige;
+}
+
+.table-container {
+    margin-bottom: 60px;
+}
+
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.edu-table th,
+.edu-table td {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.edu-table th {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #222;
+}
+
+.edu-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.edu-table tbody tr:hover {
+    background-color: lavender;
+    font-weight: bold;
+}
+
+.edu-details {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.edu1,
+.edu2,
+.edu3,
+.edu4 {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 35px 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    align-items: center;
+}
+
+.edu1:hover,
+.edu2:hover,
+.edu3:hover,
+.edu4:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.edu-details p {
+    margin: 0;
+    line-height: 1.8;
+    font-size: 20px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.skills-grid {
+    display: flex;
+    gap: 50px;
+}
+
+.skills-grid1,
+.skills-grid2 {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skill-category {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.skill-category:hover {
+    transform: translateX(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.skill-category h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #111;
+    border: none;
+    padding: 0;
+}
+
+.skill-category p {
+    margin: 0;
+    line-height: 1.8;
+    font-size: 19px;
+    color: #444;
+}
+
+/* --- Milestone Section Styling --- */
+
+.milestone-container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.column1,
+.column2,
+.column3 {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column1:hover,
+.column2:hover,
+.column3:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.column-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #111;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.column-content p,
+.column-content li {
+    margin: 0 0 10px 0;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #444;
+}
+
+.column-content b {
+    color: #222;
+}
+
+.column-content ol,
+.column-content ul {
+    padding-left: 20px;
+    margin: 0;
+}

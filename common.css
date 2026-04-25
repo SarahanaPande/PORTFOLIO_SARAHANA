@@ -1,0 +1,100 @@
+/* --- Global Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* --- Body --- */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Global Typography (Headers) --- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #111;
+}
+
+/* --- Navigation Bar --- */ 
+.nav_bar {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav_link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav_link a {
+    padding: 10px 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.nav_link a:hover {
+    background-color: lavender;
+    color: rgb(114, 114, 244);
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+
+/* --- Global UI Elements (Buttons) --- */
+.resume_btn {
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.resume_btn:hover {
+    background-color: lavender;
+    color: rgb(114, 114, 244);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transform: translateY(-2px);
+}
+
+.global_btn {
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.global_btn:hover {
+    background-color: lavender;
+    color: rgb(114, 114, 244);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transform: translateY(-2px);
+}
